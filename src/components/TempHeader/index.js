@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import Logo from './../../assets/logo.png';
+import Logo from './../../assets/new_icons/poetrydao logo.png'; 
 import { NavElements, Icons } from "../../constants/constants";
 import {AiOutlineMenu} from 'react-icons/ai';
 import { IconContext } from "react-icons";
@@ -19,9 +19,9 @@ const TempHeader = ({
             <div className="flex items-center justify-between px-12 p-5">
 
                 <div 
-                    onClick={onClick}
+                    // onClick={onClick}
                     className={`
-                        lg:hidden cursor-pointer transition-colors duration-150 bg-transparent hover:opacity-75
+                        lg:hidden cursor-pointer transition-colors duration-150 bg-transparent hover:opacity-75 invisible
                     `}
                 >
                     <IconContext.Provider value={{ color: "#545454", size: "2rem" }}>
@@ -31,13 +31,13 @@ const TempHeader = ({
                     </IconContext.Provider>
                 </div>
 
-                <div className="w-12 md:w-44" >
+                <div className="w-12 md:w-52" >
                     <Link
                             className="cursor-pointer"
                             to= "/"
                         >
                         <img src= {Logo} alt="Logo" className={`
-                            absolute left-0 right-0 bottom-4 ml-auto mr-auto w-44
+                            absolute left-0 right-0 bottom-2 ml-auto mr-auto w-44
                             
                             lg:w-full lg:static
                         `}/>

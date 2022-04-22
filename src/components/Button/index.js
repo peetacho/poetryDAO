@@ -12,9 +12,9 @@ const Button = ({
             to={{ pathname: source }} 
             target= {is_external ? "_blank" : ""}
         >
-            <button className="bg-transparent text-primary lg:py-2 lg:px-20 rounded-full border-2 border-primary lg:my-4 lg:mr-4
-                py-1 px-10 my-2 mr-2
-                hover:text-background hover:border-background hover:bg-primary transition duration-300
+            <button className="bg-transparent text-base text-primary lg:py-2 lg:px-2 rounded-full border-2 border-primary lg:my-4 lg:mr-4
+                py-1 px-2 my-2 mr-2 w-52
+                hover:text-background hover:bg-primary transition duration-300
             "
             >
                 {text}

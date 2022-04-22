@@ -7,9 +7,9 @@ import Curate from './../assets/curate.png';
 import CreateCard from './../assets/create-card-pic.png';
 import CollectCard from './../assets/collect-card-pic.png';
 import CurateCard from './../assets/curate-card-pic.png';
-import T_ICON from './../assets/twitter_icon.svg';
-import M_ICON from './../assets/m_icon.svg';
-import D_ICON from './../assets/discord_icon.svg';
+import T_ICON from './../assets/new_icons/icon twitter.png';
+import M_ICON from './../assets/new_icons/icon medium.png';
+import D_ICON from './../assets/new_icons/icon discord.png';
 
 
 export const SubPageInfo = [
