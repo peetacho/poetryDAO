@@ -1,4 +1,4 @@
-# poetryDAO
+# PoetryDAO 🦢
 
 > 🪶 Developed a website for PoetryDAO: a platform to empower the next generation of poets and support the creator's economy in web3.
 
